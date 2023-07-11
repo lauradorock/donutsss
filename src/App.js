@@ -1,6 +1,5 @@
 import Home from "./Page/Home/Home.js";
 import StyledGlobal, { CorFundo } from "../src/styledGlobal";
-
 import { useState } from "react";
 import Detalhes from "./Page/Detalhes/Detalhes.js";
 
@@ -14,8 +13,8 @@ function App() {
 
   return (
    <>
-    <StyledGlobal/> 
     <CorFundo>
+    <StyledGlobal/> 
     
     {trocardePagina === "0"?(
       <Home pagina={()=> changePage("0")}/>

@@ -4,7 +4,7 @@ import Nav from "../../Components/Nav/Nav"
 import TituloHeader from "../../Components/TituloHeader/TituloHeader.js"
 import { SectionCard } from "./styled.jsx"
 import menu from "../../assets/menu.png"
-import lupa from "../../assets/lupa.png"
+import lupa from "../../assets/search.png"
 
 function Home(props){
     return(
@@ -18,10 +18,10 @@ function Home(props){
 
         <Nav/>
         <SectionCard>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
         </SectionCard>
         
         </>
